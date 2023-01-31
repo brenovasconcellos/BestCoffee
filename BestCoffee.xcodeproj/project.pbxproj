@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		EFA5B10429813906008D837F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5B10329813906008D837F /* AppDelegate.swift */; };
 		EFA5B10629813906008D837F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5B10529813906008D837F /* SceneDelegate.swift */; };
-		EFA5B10829813906008D837F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5B10729813906008D837F /* ViewController.swift */; };
 		EFA5B10B29813906008D837F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA5B10929813906008D837F /* Main.storyboard */; };
 		EFA5B10D2981390D008D837F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA5B10C2981390D008D837F /* Assets.xcassets */; };
 		EFA5B1102981390D008D837F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA5B10E2981390D008D837F /* LaunchScreen.storyboard */; };
+		EFB115F929895AA500D62CE9 /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB115F829895AA500D62CE9 /* OrdersTableViewController.swift */; };
+		EFB115FB29895B0800D62CE9 /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB115FA29895B0800D62CE9 /* AddOrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EFA5B10029813906008D837F /* BestCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA5B10329813906008D837F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFA5B10529813906008D837F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFA5B10729813906008D837F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EFA5B10A29813906008D837F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFA5B10C2981390D008D837F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFA5B10F2981390D008D837F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFA5B1112981390D008D837F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB115F829895AA500D62CE9 /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
+		EFB115FA29895B0800D62CE9 /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		EFA5B10229813906008D837F /* BestCoffee */ = {
 			isa = PBXGroup;
 			children = (
+				EFB115F729895A8900D62CE9 /* Controllers */,
 				EFA5B10329813906008D837F /* AppDelegate.swift */,
 				EFA5B10529813906008D837F /* SceneDelegate.swift */,
-				EFA5B10729813906008D837F /* ViewController.swift */,
 				EFA5B10929813906008D837F /* Main.storyboard */,
 				EFA5B10C2981390D008D837F /* Assets.xcassets */,
 				EFA5B10E2981390D008D837F /* LaunchScreen.storyboard */,
 				EFA5B1112981390D008D837F /* Info.plist */,
 			);
 			path = BestCoffee;
+			sourceTree = "<group>";
+		};
+		EFB115F729895A8900D62CE9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFB115F829895AA500D62CE9 /* OrdersTableViewController.swift */,
+				EFB115FA29895B0800D62CE9 /* AddOrderViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFA5B10829813906008D837F /* ViewController.swift in Sources */,
 				EFA5B10429813906008D837F /* AppDelegate.swift in Sources */,
 				EFA5B10629813906008D837F /* SceneDelegate.swift in Sources */,
+				EFB115F929895AA500D62CE9 /* OrdersTableViewController.swift in Sources */,
+				EFB115FB29895B0800D62CE9 /* AddOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
